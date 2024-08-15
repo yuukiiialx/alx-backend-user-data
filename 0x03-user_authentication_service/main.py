@@ -3,9 +3,9 @@
 Main file
 """
 from auth import Auth
-
-EMAIL = 'bob@bob.com'
-PASSWD = 'MyPwdOfBob'
+EMAIL = "guillaume@holberton.io"
+PASSWD = "b4l0u"
+NEW_PASSWD = "t4rt1fl3tt3"
 auth = Auth()
 
 auth.register_user(EMAIL, PASSWD)
