@@ -4,17 +4,14 @@ Main file
 """
 from auth import Auth
 
-email = 'bob@bob.com'
-password = 'MyPwdOfBob'
+EMAIL = 'bob@bob.com'
+PASSWD = 'MyPwdOfBob'
 auth = Auth()
 
-auth.register_user(email, password)
+auth.register_user(EMAIL, PASSWD)
 
 print(auth.create_session(email))
 print(auth.create_session("unknown@email.com")
-EMAIL = "guillaume@holberton.io"
-PASSWD = "b4l0u"
-NEW_PASSWD = "t4rt1fl3tt3"
 
 
 if __name__ == "__main__":
